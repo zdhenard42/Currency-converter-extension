@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Currency Converter",
+    "version": "0.0.1",
+    "description": "This converts currency values on a webpage to a different currency chosen by the user.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "action": {
+        "default_title": "Currency Converter",
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://cdn.jsdelivr.net/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["/js/content_script.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": {
+        "16": "/icons/icon16.png",
+        "24": "/icons/icon24.png",
+        "128": "/icons/icon128.png"
+    }
+}

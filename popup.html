@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/popup.css">
+    
+    <title>Extension Options</title></head>
+  <body>
+    <div class=wrap>
+      <div class=d1>
+        <img src="/icons/icon24.png">
+        Currency Converter
+      </div>
+      <div class=d2>
+        Pick a currency to convert to:
+        <select id="userChoiceSaved">
+          <option value=""></option>
+        </select>
+      </div>
+        
+      <div class=d3>
+        Pick a local currency:<br>
+        <input type="radio" name="local" value="usd">$ US Dollar
+        <input type="radio" name="local" value="eur">&euro; Euro
+        <input type="radio" name="local" value="gbp">&#163 Pound Sterling
+        <input type="radio" name="local" value="btc">&#8383; Bitcoin
+      </div>
+      
+      <div class=d4>
+        <button id="save">Save</button>
+      </div>
+      <div id="status"></div>
+    </div>
+
+    <script type ="module" src="/js/popup.js"></script>
+
+  </body>
+</html>

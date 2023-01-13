@@ -1,0 +1,35 @@
+.wrap {
+    width: 400px;
+    height: 125px;
+    display: grid;
+    grid-template-areas: "title"
+                         "currency"
+                         "local"
+                         "save";
+    grid-template-rows: 30px 40px 45px 25px;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+}
+
+.d1 {
+  grid-area: title;
+  background-color: darkgray;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.d2 {
+  grid-area: currency;
+  font-size: 14px;
+}
+
+.d3 {
+  grid-area: local;
+  font-size: 14px;
+}
+
+.d4 {
+  grid-area: save;
+}
