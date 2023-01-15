@@ -1,7 +1,7 @@
 ## Currency Converter
 This browser extension converts prices of currency on web pages to the currency of your choice.  
 
-<img src="https://i.imgur.com/BDERFxR.jpeg" alt="Currency Converter" width="auto">
+<img src="https://imgur.com/eZpULKa.jpeg" alt="Currency Converter" width="auto">
 
 ## Features
 - Automatically converts prices on web pages to the currency of your choice.  
